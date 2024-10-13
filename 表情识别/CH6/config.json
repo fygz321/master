@@ -1,0 +1,23 @@
+{
+  "name": "fer_new",
+  "version": "1.0.0",
+  "dependencies": {
+  },
+  "model_config": {
+    "data_root": "./ch6_data",
+    "num_classes": 7,
+    "device": "cuda:0",
+    "num_workers": 0,
+    "save_path": "save_path/",
+    "batch_size": 8,
+    "epoches": 60,
+    "test_epoches": 10,
+    "prue_epoches": 10,
+    "img_size": 224,
+    "learning_rate": 0.000035,
+    "weight_decay": 1e-4,
+    "model_path": "save_path/no-prune.pth",
+    "extend_length": 15,
+    "optimizer": "Adam"
+  }
+}
